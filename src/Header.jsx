@@ -1,7 +1,10 @@
-// @ts-check
-
-export const Header = () => {
-  return <></>
+import React from 'react';
+import './App.css'
+export const Header = ()=>{
+  return(
+    <header className='hed'>
+      Dogアプリ
+    </header>
+  )
 }
-
-export default Header
+export default Header;
